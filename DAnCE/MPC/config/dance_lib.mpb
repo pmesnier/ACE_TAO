@@ -1,0 +1,4 @@
+// -*- MPC -*-
+project : dance {
+  libout = $(ACE_ROOT)/lib
+}

@@ -1,0 +1,5 @@
+// -*- MPC -*-
+project : ccm_stub {
+  after += CCM_lem_stub 
+  libs  += CCM_lem_stub 
+}

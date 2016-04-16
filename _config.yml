@@ -1,0 +1,10 @@
+# Site settings
+title: OCITAO
+email: info@ociweb.com
+description: This is Phil's preview of OCI's commercial version of the ACE ORB, along with ACE and commom component modelling tools CAIO and DAnCE.
+twitter_username: ObjectComputing
+github_username:  objectcomputing
+
+# github-metadata
+repository: pmesnier/ATCD
+gems: ['jekyll-github-metadata', 'jekyll-redirect-from']

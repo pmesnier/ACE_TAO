@@ -1,0 +1,12 @@
+#include <Components.idl>
+
+module Simple
+{
+  component SimpleNull
+  {
+  };
+
+  home SimpleNullHome manages SimpleNull
+  {
+  };
+};

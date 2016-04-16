@@ -1,0 +1,11 @@
+#ifndef B_IDL
+#define B_IDL
+
+#pragma ciao lem "BE.idl"
+
+interface B
+{
+};
+
+#endif /* B_IDL */
+

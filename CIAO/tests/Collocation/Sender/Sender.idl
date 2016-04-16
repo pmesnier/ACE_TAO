@@ -1,0 +1,12 @@
+#ifndef SENDER_IDL_
+#define SENDER_IDL_
+
+#include <Components.idl>
+
+#include "Coll_Base/Base.idl"
+
+component Sender {
+  provides Hello hello;
+};
+
+#endif /* SENDER_IDL_ */

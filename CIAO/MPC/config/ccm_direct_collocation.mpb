@@ -1,0 +1,5 @@
+// -*- MPC -*-
+feature (ccm_direct_collocation) : taobaseidldefaults {
+  macros += CCM_DIRECTCOLL
+  idlflags += -DCCM_DIRECTCOLL -Gd
+}

@@ -1,0 +1,5 @@
+// -*- MPC -*-
+project : dance_artifact_installation, inet {
+  libs += DAnCE_File_Installation DAnCE_Http_Installation
+  after += DAnCE_File_Installation DAnCE_Http_Installation
+}

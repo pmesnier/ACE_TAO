@@ -1,0 +1,4 @@
+// -*- MPC -*-
+project {
+   install = $(CIAO_ROOT)/bin
+}

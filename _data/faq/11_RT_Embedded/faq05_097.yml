@@ -1,16 +1,16 @@
 Q: Does TAO support request/reply timeouts?
 
-A: TAO
-supports the Relative Roundtrip Timeout policy as defined in the CORBA Messaging
+A: >
+TAO supports the Relative Roundtrip Timeout policy as defined in the CORBA Messaging
 specification (OMG Document formal/04-03-12, Chapter 22).  This policy allows you to
 specify the maximum time allowed (in 100 nanosecond units) for a request
 to be sent to and processed by a server and the reply received by the client.
- The policy can be applied at one of three levels: the client ORB, the requesting
+ The policy can be applied at one of three levels - the client ORB, the requesting
 thread, or the object reference on which the request is invoked. <p>
 Relative roundtrip timeouts can be applied when the client requires low request/reply latencies.
 </p><p> The following example shows how to set the Relative Roundtrip Timeout
 policy to a value of 1 millisecond (that is 1.0e-3 * 1.0e7 in 100 nanosecond
-units) and apply it at the ORB level: </p><p>
+units) and apply it at the ORB level - </p><p>
 </p><pre>
   // Initialize the ORB.  It serves as a factory for policies.
   CORBA::ORB_var orb = CORBA::ORB_init (argc, argv);
@@ -24,14 +24,14 @@ units) and apply it at the ORB level: </p><p>
   // Create the policy and put it in a policy list.
   CORBA::PolicyList policies;
   pols.length(1);
-  policies[0] = 
+  policies[0] =
     orb->create_policy (Messaging::RELATIVE_RT_TIMEOUT_POLICY_TYPE,
                         relative_rt_timeout_as_any);
 
   // Apply the policy at the ORB level using the ORBPolicyManager.
   CORBA::Object_var obj =
     orb->resolve_initial_references ("ORBPolicyManager");
-  CORBA::PolicyManager_var policy_manager = 
+  CORBA::PolicyManager_var policy_manager =
     CORBA::PolicyManager::_narrow (obj.in());
   policy_manager->set_policy_overrides (policies, CORBA::SET_OVERRIDE);
 </pre>

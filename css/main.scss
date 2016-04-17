@@ -6,28 +6,32 @@
 
 
 // Our variables
-$base-font-family: 'Open Sans', sans-serif;
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
+$base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     15px;
+$spacing-unit:     30px;
 
-$text-color:       #3f3f3f;
+$text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #0062a3;
+$brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$on-palm:          850px;
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
 $on-laptop:        800px;
 
 
 
-// Using media queries with like this:
-// @include media-query($palm) {
+// Use media queries like this:
+// @include media-query($on-palm) {
 //     .wrapper {
 //         padding-right: $spacing-unit / 2;
 //         padding-left: $spacing-unit / 2;
@@ -39,11 +43,7 @@ $on-laptop:        800px;
     }
 }
 
-@mixin anti-media-query($device) {
-    @media screen and (min-width: $device + 1) {
-        @content;
-    }
-}
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

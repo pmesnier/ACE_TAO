@@ -21,24 +21,31 @@ The ACE ORB (TAO) is an open source C++ implementation of the Object Management 
 - Includes an easy to use cross-platform build tool: MPC
 - OCI can help you migrate from other ORBS.
 
-
-{% assign sorted_rel = site.github.releases | sort: "created_at" | reverse %}
-{% assign latest_rel = sorted_rel | first %}
+{% assign releases = site.github.release %}
+{% if releases != null %}
+  {% assign sorted_rel = site.github.releases | sort: "created_at" | reverse %}
+  {% assign latest_rel = sorted_rel | first %}
+ 
 ### Current Release: [{{latest_rel.name}}]({{latest_rel.html_url}})
+  
+  {{latest_rel.body}}
+  {% assign assets = latest_rel.assets | sort: "name" | reverse %}
+  {% for a in assets %}{% capture tn %}Open{{latest_rel.tag_name}}{% endcapture %}
+  {% assign ext = a.name | remove: tn %}
+  {% if ext == '.zip' %}
+    {% assign note = 'Windows' %}
+  {% else %}
+    {% assign note = 'Linux/Solaris/MacOSX' %}
+  {% endif %}
+  [Download {{a.name}}]({{a.browser_download_url}}) ({{note}})
+  {% endfor %}
 
-{{latest_rel.body}}
-{% assign assets = latest_rel.assets | sort: "name" | reverse %}
-{% for a in assets %}{% capture tn %}Open{{latest_rel.tag_name}}{% endcapture %}
-{% assign ext = a.name | remove: tn %}
-{% if ext == '.zip' %}
-  {% assign note = 'Windows' %}
 {% else %}
-  {% assign note = 'Linux/Solaris/MacOSX' %}
+### Releases is null...
 {% endif %}
-[Download {{a.name}}]({{a.browser_download_url}}) ({{note}})
-{% endfor %}
 
+Seomethng else goes here
 
 ### Vintage OCI TAO - 2.2a and older
 
-Older OCI TAO releases are available through [OCI's Download Portal](lhttp://localhost:9090/ociProduct/show/3)
+Older OCI TAO releases are available through the [OCI' Download Portal](lhttp://localhost:9090/ociProduct/show/3)

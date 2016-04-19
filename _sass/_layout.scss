@@ -38,6 +38,11 @@
         text-decoration: none;
     }
 
+    p {
+        color: white;
+        text-decoration: none;
+    }
+
     .arrow { font-size: 11px; }
 
     .page-link { line-height: $base-line-height; }
@@ -151,7 +156,7 @@
 
         .toggle ~ a { display: none; }
 
-        .toggle { 
+        .toggle {
             display: block;
             color: hsl(205, 100%, 32%);
         }

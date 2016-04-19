@@ -20,5 +20,5 @@ markdown: kramdown
 
 # github-metadata
 repository: pmesnier/ATCD
-gems: ['jekyll-github-metadata', 'jekyll-redirect-from']
+gems: ['jekyll-github-metadata', 'jekyll-redirect-from', 'octopress-debugger' ]
 

@@ -5,3 +5,6 @@ gem 'github-markdown'
 gem 'jekyll-github-metadata'
 gem 'jekyll-redirect-from'
 gem 'jekyll-auth'
+group :jekyll_plugins do
+  gem 'octopress-debugger'
+end

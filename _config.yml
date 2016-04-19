@@ -10,7 +10,7 @@ title: phil's ACE/TAO clone
 email: mesnierp@ociweb.com
 description: > # this means to ignore newlines until "baseurl:"
   This is Phil's working copy of the DOC Group's version of ACE TAO.
-#baseurl: "http://pmesnier.github.io" # the subpath of your site, e.g. /blog
+baseurl: "http://pmesnier.github.io/ATCD" # the subpath of your site, e.g. /blog
 #url: "/ATCD" # the base hostname & protocol for your site
 # twitter_username:
 github_username:  pmesnier

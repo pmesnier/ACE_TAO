@@ -6,19 +6,22 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: phil's ACE/TAO clone
-email: mesnierp@ociweb.com
+title: OCITAO - theaceorb.com
+email: info@ociweb.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is Phil's working copy of the DOC Group's version of ACE TAO.
-baseurl: "http://pmesnier.github.io/ACE_TAO" # the subpath of your site, e.g. /blog
+  OCITAO is OCI's commercial release of the ACE ORB. OCITAO is freely available, both in terms
+  of spirit and cost. OCI provides fee based, commercial support for TAO including older versions
+  thereby facilitating support for the duration of long-lifespan product. For more information
+  about OCI's support offering contact mailto://info@ociweb.com
+baseurl: "http://objectcomputng.github.io/ACE_TAO" # the subpath of your site, e.g. /blog
 #url: "/ACE_TAO" # the base hostname & protocol for your site
-# twitter_username:
-github_username:  pmesnier
+twitter_username: ObjectComputing
+github_username:  objectcomputing
 
 # Build settings
 markdown: kramdown
 
 # github-metadata
-repository: pmesnier/ACE_TAO
+repository: objectcomputing/ACE_TAO
 gems: ['jekyll-github-metadata', 'jekyll-redirect-from', 'octopress-debugger' ]
 

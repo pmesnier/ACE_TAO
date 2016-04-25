@@ -18,12 +18,12 @@ A: >
  <p>
  OCI seeks to maintain extremely stable, fully-tested, open
  source products backed by
- <a href="http://www.theaceorb.com/support/index.html">commercial support</a>,
- <a href="http://www.theaceorb.com/training/index.html">training</a>,
+ <a href="{{site.baseurl}}/support/index.html">commercial support</a>,
+ <a href="{{site.baseurl}}/training/index.html">training</a>,
  <a href="http://www.ociweb.com/consulting">consulting</a>, and
  accompanied by
  <a
- href="http://www.theaceorb.com/purchase/index.html">extensive
+ href="{{site.baseurl}}/purchase/index.html">extensive
  documentation and binaries on CD-ROM available for
  purchase</a>.  Many organizations
  desire a commercially-supported release of TAO as a basis for
@@ -39,7 +39,7 @@ A: >
  href="http://www.cs.wustl.edu/~schmidt/TAO-mail.html">tao-users
  mailing list</a>, and is often excellent.  However, more
  "predictable" support is availble from
- <a href="http://www.theaceorb.com">OCI</a> and
+ <a href="{{site.baseurl}}">OCI</a> and
  <a href="http://www.cs.wustl.edu/~schmidt/commercial-support.html">other organizations</a>.
  </p>
  
@@ -60,16 +60,16 @@ A: >
  <p>
  OCI also packages select binaries (custom builds are also
  available -- see <a
- href="http://www.theaceorb.com/product/index.html">http://www.theaceorb.com/product/index.html</a>)
+ href="{{site.baseurl}}/product/index.html">{{site.baseurl}}/product/index.html</a>)
  and makes them available for purchase on CD-ROM.  Since OCI's
  distribution of TAO is still open source, OCI also distributes
- the source code and all patches free of charge (see <a href="http://www.theaceorb.com/downloads">http://www.theaceorb.com/downloads</a>).
+ the source code and all patches free of charge (see <a href="{{site.baseurl}}/downloads">{{site.baseurl}}/downloads</a>).
  </p>
  
  <p>
  In OCI distributions, the original DOC Group <code>ChangeLog</code>s are preserved;
  OCI changes are documented in <code>OCIChangeLog</code> and <code>OCIReleaseNotes.html</code>
  files, included in the source code distribution.  See, for example, the latest
- <a href="http://www.theaceorb.com/1.4a/OCIReleaseNotes.html">OCI TAO 1.4a Release Notes</a>.
+ <a href="{{site.baseurl}}/1.4a/OCIReleaseNotes.html">OCI TAO 1.4a Release Notes</a>.
  </p>
  

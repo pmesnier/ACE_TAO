@@ -4,7 +4,7 @@ A: >
  There
  are several ways to minimize the sizes of the ACE and TAO libraries, at least
  in UNIX.  They are described briefly here.  More details can be found in
- the <a href="http://www.theaceorb.com/purchase/index.html"><em>TAO Developer's Guide</em></a>.
+ the <a href="{{site.baseurl}}/purchase/index.html"><em>TAO Developer's Guide</em></a>.
  <p> Note that all of these solutions are applied at compile time, so if you
  obtained OCI's Distribution of TAO as pre-built binaries on
  CD, you will need to re-compile. </p>

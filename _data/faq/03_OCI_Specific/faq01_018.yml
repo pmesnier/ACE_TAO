@@ -21,15 +21,15 @@ A: >
  of prebuilt binary distributions of TAO.  We want to make sure
  you are up and running with TAO as quickly as possible.<br>
  <li> <b>Documentation</b>: Using OCI's Distribution of TAO is easy with OCI's <em>TAO Developer's Guide</em> (available for purchase at
- <a href="http://www.theaceorb.com/purchase/index.html">http://www.theaceorb.com/purchase/index.html</a>).
+ <a href="{{site.baseurl}}/purchase/index.html">{{site.baseurl}}/purchase/index.html</a>).
  In addition to the documentation set, you can view the latest TAO 
- release notes at <a href="http://www.theaceorb.com/releasenotes/index.html">http://www.theaceorb.com/releasenotes/index.html</a>.<br>
+ release notes at <a href="{{site.baseurl}}/releasenotes/index.html">{{site.baseurl}}/releasenotes/index.html</a>.<br>
  <li> <b>Frequently Asked Questions</b>: OCI maintains a list of frequently asked questions about TAO.  This
  list is updated regularly by our staff of distributed object computing
  technology engineers to provide answers to common questions about
  using TAO.  Anyone in the TAO user community can contribute questions
  (and answers) to the FAQ.  Check it first to see if your question has
- been asked before.  The FAQ is located at <a href="http://www.theaceorb.com/faq/">http://www.theaceorb.com/faq/</a><br>
+ been asked before.  The FAQ is located at <a href="{{site.baseurl}}/faq/">{{site.baseurl}}/faq/</a><br>
  <li> <b>Professional Support</b>: If you need further support, beyond installation issues or frequently
  asked questions, such as object technology training, consulting,
  mentoring, or application development, OCI has several service

@@ -11,7 +11,7 @@ A: >
   This is a general C++ CORBA book and covers the standard way of doing things. 
  <p>
  The OCI <em>TAO Developer's Guide</em>, which you can purchase via
- <a href="http://www.theaceorb.com/purchase/index.html">http://www.theaceorb.com/purchase/index.html</a>
+ <a href="{{site.baseurl}}/purchase/index.html">{{site.baseurl}}/purchase/index.html</a>
  .  This book picks up where the Henning and Vinoski book stops, covering
  TAO specific topics as well as CORBA standard features omitted from the Henning
  and Vinoski book. </p></blockquote>

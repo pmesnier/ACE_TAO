@@ -7,7 +7,7 @@
 
 
 function SendMail(Login, Server) {
- location=("mailto:" + Login + "@" + Server);} 
+ location=("mailto:" + Login + "@" + Server);}
 
 </script>
     <style>
@@ -38,7 +38,7 @@ function SendMail(Login, Server) {
 	  These release notes are current as of TAO 1.2a (which corresponds to OCI part
 	  number <em>TBD</em>).  The latest version of these release notes
 	  can be viewed or downloaded from OCI's web site at <a
-	  href="http://www.theaceorb.com/releasenotes">http://www.theaceorb.com/releasenotes</a>.
+	  href="{{site.baseurl}}/releasenotes">{{site.baseurl}}/releasenotes</a>.
 	</td>
       </tr>
     </table>
@@ -64,7 +64,7 @@ function SendMail(Login, Server) {
 	</ol>
       <li><a href="#updates">New Features Since TAO 1.1a</a>
 	<ol type="a">
-          <li><a href="#corba25">Major feature-compliance with OMG's CORBA 2.5 
+          <li><a href="#corba25">Major feature-compliance with OMG's CORBA 2.5
               specification</a>
           <li><a href="#security1">Support for OMG CORBA Security Level 1
               specification</a>
@@ -103,7 +103,7 @@ function SendMail(Login, Server) {
 -->
 
     </ol>
-	
+
     <hr width="50%">
 
     <ol type="1">
@@ -140,7 +140,7 @@ function SendMail(Login, Server) {
 	      other tools to build applications using ACE &amp; TAO, using GNU Make lets
 	      you leverage the existing build system distributed with ACE &amp; TAO.  If
 	      you need GNU Make, you can get a source distribution through <a
-	      href="http://www.theaceorb.com/gnumake">http://www.theaceorb.com/gnumake</a>
+	      href="{{site.baseurl}}/gnumake">{{site.baseurl}}/gnumake</a>
 	      as well as other places.
 	    <p>
 
@@ -151,7 +151,7 @@ function SendMail(Login, Server) {
               To install a Windows build of TAO 1.2a from CD, run
               setup on a Windows platform.  Likewise, to install for
               a UNIX or UNIX-like platform, run setup on a UNIX or
-              UNIX-like platform. 
+              UNIX-like platform.
 	    <p>
 
           <li class="l2"><a name="event_svc_clarification"></a><span class="l2">Clarification of Event Service Installation Nomenclature</span></li>
@@ -246,7 +246,7 @@ function SendMail(Login, Server) {
 	    <p>
 
 	  <li class="l2"><a name="additional_platforms"></a><span class="l2">
-          Additional configuration options and support for additional 
+          Additional configuration options and support for additional
           platforms</span>
 	    <p>
             In TAO 1.2a, support has been extended to new platforms,
@@ -261,7 +261,7 @@ function SendMail(Login, Server) {
 
 	  <li class="l2"><a name="footprint_reduction"></a><span class="l2">
           Options for Footprint Reduction and improved modularization</span>
-	    <p> 
+	    <p>
             In TAO 1.2a, the core TAO library has been divided into many
             smaller libraries so applications only need to link in the
             features they need.  In addition, TAO 1.2a includes an
@@ -271,10 +271,10 @@ function SendMail(Login, Server) {
 	    <p>
 
 	  <li class="l2"><a name="improved_pp"></a><span class="l2">
-          Improved Pluggable Protocol framework with additional 
+          Improved Pluggable Protocol framework with additional
           pluggable protocols
           </span>
-	    <p> 
+	    <p>
             TAO 1.2a comes with an improved open pluggable protocols
             framework so developers can create their own transports that
             seamlessly integrate with the rest of the TAO ORB. Custom
@@ -294,7 +294,7 @@ function SendMail(Login, Server) {
 	  <li class="l2"><a name="interoperable_naming"></a><span class="l2">
           Complete support for Interoperable Naming Service
           </span>
-	    <p> 
+	    <p>
             TAO 1.2a provides complete support for the OMG Interoperable
             Naming Service specification, including
             <code>corbaloc</code> and <code>corbaname</code> object URLs
@@ -305,7 +305,7 @@ function SendMail(Login, Server) {
 	  <li class="l2"><a name="improved_notification"></a><span class="l2">
           Improvements in the Notification Service
           </span>
-	    <p> 
+	    <p>
             TAO 1.2a includes many enhancements to TAO's implementation
             of the OMG Notification Service, including multithreaded
             event dispatching and filter evaluation, full ETCL filtering
@@ -317,7 +317,7 @@ function SendMail(Login, Server) {
 	  <li class="l2"><a name="improved_mcast"></a><span class="l2">
           Improved Multicast Service Discovery
           </span>
-	    <p> 
+	    <p>
             TAO 1.2a provides developers and administrators with better
             control over multicast discovery of TAO's CORBA services
             (such as the Naming and Object Trader services) and the
@@ -327,7 +327,7 @@ function SendMail(Login, Server) {
 	  <li class="l2"><a name="interface_repo"></a><span class="l2">
           Implementation of OMG Interface Repository
           </span>
-	    <p> 
+	    <p>
             TAO 1.2a adds an implementation of the OMG Interface
             Repository specification for dynamic discovery of IDL types
             and interfaces.
@@ -336,7 +336,7 @@ function SendMail(Login, Server) {
 	  <li class="l2"><a name="improved_implrepo"></a><span class="l2">
           Improved Implementation Repository
           </span>
-	    <p> 
+	    <p>
             TAO 1.2a includes several improvements and bug fixes to the
             Implementation Repository.
             <p>
@@ -345,7 +345,7 @@ function SendMail(Login, Server) {
 	<p>
 	Details on these, and many other features of TAO 1.2a, will be
         detailed in the forthcoming <a
-	href="http://www.theaceorb.com/product/index.html">
+	href="{{site.baseurl}}/product/index.html">
         OCI's TAO Developer's Guide, Version 1.2a</a>, available separately.
         <p>
 
@@ -382,8 +382,8 @@ function SendMail(Login, Server) {
               </dd>
 	      <p>
 	      <dd>
-		  For platform/version-specific test failures and known problems, 
-		  please review the 
+		  For platform/version-specific test failures and known problems,
+		  please review the
 		  <a href="version_info.html">release notes for each version/platform.</a>
               </dd>
             <p>
@@ -529,7 +529,7 @@ message was sent<br>
 
     <hr>
     <p>
-    <address>OCI provides commercial support for TAO 1.2a.  Contact 
+    <address>OCI provides commercial support for TAO 1.2a.  Contact
     <a href="javascript:SendMail('sales', 'ociweb.com')">sales</a> for more
     information.</address>
     </p>

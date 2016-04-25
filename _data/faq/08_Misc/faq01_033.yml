@@ -48,6 +48,6 @@ A: >
  
  <p>
  Using and developing pluggable protocols is documented in
- detail in the <a href="http://www.theaceorb.com/purchase/index.html"><em>TAO Developer's Guide</em></a>.
+ detail in the <a href="{{site.baseurl}}/purchase/index.html"><em>TAO Developer's Guide</em></a>.
  </p>
  

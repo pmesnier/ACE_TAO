@@ -10,8 +10,8 @@ title: phil's ACE/TAO clone
 email: mesnierp@ociweb.com
 description: > # this means to ignore newlines until "baseurl:"
   This is Phil's working copy of the DOC Group's version of ACE TAO.
-baseurl: "http://pmesnier.github.io/ATCD" # the subpath of your site, e.g. /blog
-#url: "/ATCD" # the base hostname & protocol for your site
+baseurl: "http://pmesnier.github.io/ACE_TAO" # the subpath of your site, e.g. /blog
+#url: "/ACE_TAO" # the base hostname & protocol for your site
 # twitter_username:
 github_username:  pmesnier
 
@@ -19,6 +19,6 @@ github_username:  pmesnier
 markdown: kramdown
 
 # github-metadata
-repository: pmesnier/ATCD
+repository: pmesnier/ACE_TAO
 gems: ['jekyll-github-metadata', 'jekyll-redirect-from', 'octopress-debugger' ]
 

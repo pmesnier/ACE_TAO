@@ -43,8 +43,8 @@ A: >
  has expired, it will be discarded by the client ORB. </p><p> The Relative Roundtrip Timeout policy, and other Quality of Service
  policies defined as part of the CORBA Messaging specification, are described
  in more detail in the OCI <a
- href="http://www.theaceorb.com/purchase/index.html"><em>TAO Developer's Guide</em></a>, CORBA Messaging chapter, available from
- <a href="http://www.theaceorb.com/">http://www.theaceorb.com/</a>.  See also <a href="http://www.cs.wustl.edu/%7Eschmidt/PDF/C++-report-col19.pdf">http://www.cs.wustl.edu/~schmidt/PDF/C++-report-col19.pdf</a>.<br>
+ href="{{site.baseurl}}/purchase/index.html"><em>TAO Developer's Guide</em></a>, CORBA Messaging chapter, available from
+ <a href="{{site.baseurl}}/">{{site.baseurl}}/</a>.  See also <a href="http://www.cs.wustl.edu/%7Eschmidt/PDF/C++-report-col19.pdf">http://www.cs.wustl.edu/~schmidt/PDF/C++-report-col19.pdf</a>.<br>
  <br>
  
  

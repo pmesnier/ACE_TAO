@@ -61,7 +61,7 @@ A: >
  arguments and modifiers.  See <a
  href="https://svn.dre.vanderbilt.edu/viewvc/Middleware/trunk/TAO/docs/ORBEndpoint.html?view=co">https://svn.dre.vanderbilt.edu/viewvc/Middleware/trunk/TAO/docs/ORBEndpoint.html?view=co</a>
  and the <a
- href="http://www.theaceorb.com/purchase/index.html"><em>TAO
+ href="{{site.baseurl}}/purchase/index.html"><em>TAO
  Developer's Guide</em></a> for more details on the the
  <code>-ORBListenEndpoints</code> option.
  </p>
